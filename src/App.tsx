@@ -167,7 +167,7 @@ export default function Home() {
 
           <article className="case-study">
             <div className="case-preview">
-              <img src="/assets/buggycars-cover.png" alt="Portada del reporte de pruebas Buggy Cars" />
+              <img src="./assets/buggycars-cover.png" alt="Portada del reporte de pruebas Buggy Cars" />
               <span className="document-chip">PDF · 19 PÁGINAS</span>
             </div>
             <div className="case-content">
@@ -189,13 +189,13 @@ export default function Home() {
                 </ul>
               </div>
               <p className="case-note">Estado histórico del reporte: siete casos marcados como PASSED.</p>
-              <a className="button button-dark" href="/assets/Buggycars.pdf" target="_blank" rel="noreferrer">Ver reporte PDF <span aria-hidden="true">↗</span></a>
+              <a className="button button-dark" href="./assets/Buggycars.pdf" target="_blank" rel="noreferrer">Ver reporte PDF <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
           <article className="case-study database-case">
             <div className="case-preview">
-              <img src="/assets/sakila-cover.png" alt="Portada de los reportes de pruebas SQL sobre la base de datos Sakila" />
+              <img src="./assets/sakila-cover.png" alt="Portada de los reportes de pruebas SQL sobre la base de datos Sakila" />
               <span className="document-chip">SQL · 4 REPORTES</span>
             </div>
             <div className="case-content">
@@ -218,10 +218,10 @@ export default function Home() {
                 <span><strong>5</strong> login</span><span><strong>9</strong> staff</span><span><strong>6</strong> rental</span><span><strong>8</strong> rating</span>
               </div>
               <div className="report-links">
-                <a href="/assets/sakila-login.pdf" target="_blank" rel="noreferrer">Login ↗</a>
-                <a href="/assets/sakila-staff.pdf" target="_blank" rel="noreferrer">Staff ↗</a>
-                <a href="/assets/sakila-rental.pdf" target="_blank" rel="noreferrer">Alquileres ↗</a>
-                <a href="/assets/sakila-rating.pdf" target="_blank" rel="noreferrer">Ratings ↗</a>
+                <a href="./assets/sakila-login.pdf" target="_blank" rel="noreferrer">Login ↗</a>
+                <a href="./assets/sakila-staff.pdf" target="_blank" rel="noreferrer">Staff ↗</a>
+                <a href="./assets/sakila-rental.pdf" target="_blank" rel="noreferrer">Alquileres ↗</a>
+                <a href="./assets/sakila-rating.pdf" target="_blank" rel="noreferrer">Ratings ↗</a>
               </div>
             </div>
           </article>
