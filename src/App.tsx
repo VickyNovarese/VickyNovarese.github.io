@@ -187,7 +187,7 @@ export default function App() {
                 <div className="evidence-metrics"><span><strong>7</strong> Buggy Cars</span><span><strong>7</strong> OLX Web</span></div>
                 <ul className="clean-list dark"><li>Registro y validaciones de formulario</li><li>Filtros, navegación y breadcrumbs</li><li>Escenarios positivos y negativos</li></ul>
                 <div className="evidence-links">
-                  <a href={manualTestingDossierUrl} target="_blank" rel="noreferrer">Ver dossier completo PDF ↗</a>
+                  <a href={manualTestingDossierUrl} download="manual-testing-dossier.pdf">Descargar dossier completo PDF ↓</a>
                 </div>
               </article>
 
