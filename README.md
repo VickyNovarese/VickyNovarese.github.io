@@ -36,8 +36,10 @@ npm run build
 - Playwright Projects Portfolio.
 - Cypress Testing Portfolio.
 - API Testing Portfolio con Postman.
-- Caso de estudio manual Buggy Cars.
-- Caso de estudio de database testing sobre Sakila, con 28 casos SQL documentados.
+- Sección de Manual Testing & Quality Assurance con estrategia QA, técnicas de diseño y evidencias.
+- Database testing sobre Sakila, con 28 casos SQL documentados.
+- Bug Reporting & Defect Management con campos esenciales, Severity vs Priority y ciclo del defecto.
+- Prácticas complementarias de Quality Engineering: Coverage.py, Flake8, Jenkins y JMeter.
 - Competencias y metodología de calidad.
 
 No incluye credenciales, tokens ni datos de contacto inventados.
