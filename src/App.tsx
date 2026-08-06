@@ -51,7 +51,7 @@ const bugFields = [
 const skillGroups = [
   { number: "01", title: "Automation", skills: ["Playwright", "Cypress", "TypeScript", "JavaScript", "POM", "Fixtures"] },
   { number: "02", title: "API Testing", skills: ["Postman", "REST", "Newman", "CRUD", "Bearer Auth", "JSON assertions"] },
-  { number: "03", title: "Manual & Database", skills: ["Test design", "Equivalence partitioning", "Boundary values", "SQL", "JOINs", "Evidence"] },
+  { number: "03", title: "Manual & Database", skills: ["Gherkin", "Test design", "Exploratory testing", "Boundary values", "SQL", "Evidence"] },
   { number: "04", title: "Quality Engineering", skills: ["GitHub Actions", "Coverage.py", "Flake8", "Jenkins", "JMeter", "Allure"] },
 ];
 
@@ -138,8 +138,8 @@ export default function App() {
             <div>
               <p className="project-eyebrow">TEST STRATEGY · TEST DESIGN · SQL · DEFECT MANAGEMENT</p>
               <h3>Manual Testing &amp; Quality Assurance</h3>
-              <p>Estrategia QA, diseño y ejecución de casos, testing de base de datos, reporte de bugs y evidencia organizada en una sola experiencia.</p>
-              <div className="tag-list"><span>Functional</span><span>Regression</span><span>Boundary Values</span><span>SQL</span><span>Bug Reporting</span></div>
+              <p>Experiencia profesional construyendo QA manual desde cero, además de estrategia, diseño y ejecución de casos, testing de base de datos, reporte de bugs y evidencia.</p>
+              <div className="tag-list"><span>Gherkin</span><span>QA desde cero</span><span>Functional</span><span>Regression</span><span>SQL</span><span>Bug Reporting</span></div>
             </div>
             <a className="manual-entry-link" href="#manual-testing">Explorar Manual Testing <span aria-hidden="true">↓</span></a>
           </article>
@@ -149,8 +149,29 @@ export default function App() {
           <div className="section-shell">
             <div className="manual-hero">
               <div><p className="kicker light"><span /> MANUAL TESTING &amp; QUALITY ASSURANCE</p><h2 id="manual-title">Calidad antes, durante y después de ejecutar un test.</h2></div>
-              <p>Mi enfoque combina planificación, diseño de pruebas, ejecución, validación de datos y comunicación clara de defectos.</p>
+              <p>Mi enfoque combina experiencia profesional creando QA desde cero, planificación, diseño de pruebas, ejecución, validación de datos y comunicación clara de defectos.</p>
             </div>
+
+            <article className="qa-professional">
+              <div className="qa-professional-copy">
+                <span className="panel-number">EXPERIENCIA PROFESIONAL / QA DESDE CERO</span>
+                <h3>Construcción del proceso de testing manual desde cero</h3>
+                <p>En una de las empresas en las que trabajé asumí el desafío de estructurar el testing manual desde el inicio: definí procesos y estándares de calidad, diseñé la estrategia de pruebas y acompañé la calidad del producto durante todo el ciclo de desarrollo.</p>
+                <ul className="clean-list">
+                  <li>Diseño y documentación de 120 casos de prueba en Gherkin</li>
+                  <li>Creación de planes de prueba y ejecución de testing exploratorio</li>
+                  <li>Pruebas funcionales sobre aplicaciones web y desktop</li>
+                  <li>Validaciones de API con Postman y Swagger</li>
+                  <li>Consultas SQL, validación de datos y seguimiento de defectos</li>
+                  <li>Participación activa en ceremonias y planificación Scrum</li>
+                </ul>
+              </div>
+              <div className="qa-professional-metric" aria-label="120 casos de prueba escritos en Gherkin">
+                <strong>120</strong>
+                <span>casos de prueba</span>
+                <b>GHERKIN</b>
+              </div>
+            </article>
 
             <div className="qa-strategy-grid">
               <article className="qa-panel strategy-panel">
